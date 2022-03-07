@@ -1,13 +1,12 @@
 import numpy as np
 import pandas as pd
-import datetime
 import time
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import re
 import csv
 import matplotlib.pyplot as plt
-from datetime import timedelta
+from datetime import timedelta, datetime, date
 
 class Customer:
 	
@@ -77,8 +76,7 @@ def generate_Date_of_Birth(population):
 	np.random.randint()
 	'''
 	Customer_dates_of_birth = []
-	for i in range(0, population):
-		a = np.random.choice([
+	strats = [
 			'0-4',
 			'5-9',
 			'10-14',
@@ -97,19 +95,36 @@ def generate_Date_of_Birth(population):
 			'75-79',
 			'80-84',
 			'85-89'
-			], 
+			]
+	while len(Customer_dates_of_birth) < population:
+		a = np.random.choice(strats, 
 			p = [0.0816, 0.0853, 0.0817, 0.0728, 0.0693, 0.0746, 0.0959, 0.0941, 0.0888,
 			 0.0853, 0.0639, 0.0444, 0.0302, 0.0178, 0.0071, 0.0036, 0.0018, 0.0018]).split(sep ='-')
 		#print(a)
 		max_age = int(a[1])
 		min_age = int(a[0])
-		age_range = (max_age - min_age)* 365
-		days_of_life = np.random.randint(age_range) + min_age*365
-		date_of_birth = datetime.datetime.now() - timedelta(days = days_of_life)
-		date_of_birth =  date_of_birth.strftime("%Y-%m-%d")
-		#print(date_of_birth)
-		Customer_dates_of_birth.append(date_of_birth)
+		age_range = (max_age - min_age) * 365
+		days_of_life = np.random.randint(age_range) + min_age * 365
+		if days_of_life > 18 *365:
+			date_of_birth = datetime.now() - timedelta(days = days_of_life)
+			date_of_birth =  date_of_birth.strftime("%Y-%m-%d")
+			Customer_dates_of_birth.append(date_of_birth)
 	return(Customer_dates_of_birth)
+
+
+def generate_Customer_Since(population, dates_of_birth):
+	adult_age = 18
+	Customers_Since = []
+	for i in range(population):
+		b = dates_of_birth[i].split('-')
+		bb = date(int(b[0]),int(b[1]),int(b[2]))
+		min_date = bb + timedelta(days = 365 * adult_age)
+		max_date = datetime.now().date()
+		max_days = (max_date  - min_date).days
+		real_days = np.random.randint(max_days)
+		random_date = min_date + timedelta(days = real_days)
+		Customers_Since.append(random_date)
+	return(Customers_Since)
 
 
 def generate_Last_name(population):
@@ -226,6 +241,21 @@ def generate_Email(population, names, surnames):
 	return(Customers_Emails)
 
 
+def generate_Statuses(population):
+	Statuses = []
+	for i in range(population):
+		k = np.random.randint(10,20)/100
+		Statuses.append(np.random.choice(['Active', 'Inactive'], p = [0.35+k, 0.65-k]))
+	return(Statuses)
+
+def generate_Categories(population):
+	Customer_Categories = []
+	for i in range(population):
+		k = np.random.randint(1,4)/100
+		Customer_Categories.append(np.random.choice(['Business', 'Physical'], p = [0.87+k, 0.13-k]))
+	return(Customer_Categories)
+
+
 '''
 customer_columns  = ['Customer_ID',
 					'First name', 
@@ -257,9 +287,12 @@ customer_df['Agree_for_promo'] = generate_Agree_for_promo(population)
 customer_df['autoplay_card'] = generate_Autopay_card(population)
 customer_df['Customer_Email'] = generate_Email(population, customer_df['First name'], customer_df['Last name'])
 customer_df['MSISDN'] = generate_MSISDN(population)
-
+customer_df['Status'] = generate_Statuses(population)
+customer_df['Category'] = generate_Categories(population)
+customer_df['Customer_Since'] = generate_Customer_Since(population,customer_df['Date_of_birth'])
 customer_df['Region'] = generate_Region(population) 
 customer_df['Language'] = generate_Language(population) 
+customer_df['termination_date'] = np.NaN
 
 
 pd.set_option('display.max_columns', None)
@@ -287,4 +320,4 @@ for i in range(0, population):
 		ignore_index = True)
 '''
 print(customer_df)
-customer_df.to_csv('Customers.csv', sep=',')
+#customer_df.to_csv('Customers.csv', sep=',')
