@@ -1,51 +1,51 @@
-,Customer_ID,Gender,First name,Last name,Region,Language
-0,38,Male,Hamdi,Araiji,Asir Region,Arabic
-1,22,Male,Inam-ul-Haq,Memmich,Hail Region,Arabic
-2,24,Female,,Al-Azmfamily,Najran Region,Arabic
-3,31,Male,Ghiyathal-Din,ChahuГЎn,Riyadh Region,Arabic
-4,13,Female,Nasim,Mahmud,Jizan Region,Arabic
-5,32,Female,Alaa,Al-Enezi,Mecca Region,Arabic
-6,21,Female,Faiz,Jameel,Riyadh Region,Arabic
-7,25,Male,Sadik,Adib,Asir Region,Arabic
-8,28,Female,Hadid,Halabi,Medina Region,Arabic
-9,2,Male,Nabih,Atwan,Al-Bahah Region,Arabic
-10,45,Male,AbdulHamid,Ismail,Asir Region,Arabic
-11,12,Male,Suleiman,Nasr,Medina Region,Arabic
-12,7,Female,Dawoud,Rauf,Al-Bahah Region,Arabic
-13,17,Female,,Badat,Hail Region,Arabic
-14,5,Male,Ayman/Aiman/Aimen/Aymen,Farhi,Jizan Region,Arabic
-15,0,Female,AbdusSabur,Menem,Asir Region,Arabic
-16,39,Male,Sadal-Din,Badri,Asir Region,English
-17,34,Female,Akram,Al-Hashimi,Asir Region,Arabic
-18,26,Female,Rushdi,AlBalushi,Al-Bahah Region,Arabic
-19,41,Male,Majid,Assan,Asir Region,Arabic
-20,46,Male,Kamil,Sehnaoui,Northern Borders Region,Arabic
-21,14,Male,Jameel,Khofri,Northern Borders Region,Arabic
-22,11,Male,AbdulAzim,AlGosaibi,Eastern Region,Arabic
-23,23,Female,Ziad,Al-Tiflisi,Eastern Region,Arabic
-24,4,Male,Ziauddin,Manar,Najran Region,Arabic
-25,49,Female,Nasri,Nimri,Jizan Region,Arabic
-26,1,Female,Nawaz,Malki,Al-Bahah Region,Arabic
-27,43,Female,Mukhtar,Taher,Al-Bahah Region,Arabic
-28,40,Male,Samiullah,Nawawi,Al-Qassim Region,Other
-29,30,Male,Rifat,Kayyali,Al-Qassim Region,Arabic
-30,44,Male,AbdulHai,Abbar,Al-Jawf Region,Arabic
-31,36,Female,Fazel,Zafar,Medina Region,Arabic
-32,48,Male,AbdurRazzaq,Salman,Riyadh Region,Arabic
-33,37,Male,AbdurRab,Benguigui,Medina Region,Arabic
-34,9,Male,Fayez,Hadi,Al-Qassim Region,Arabic
-35,42,Female,Atif,Sakka,Al-Jawf Region,Arabic
-36,6,Male,Qamarud-Din,Benaldjia,Eastern Region,Arabic
-37,27,Male,Taher,Hazazi,Najran Region,Arabic
-38,19,Female,Dawoud,Mannah,Riyadh Region,Arabic
-39,15,Male,Muslim,Sobhi,Al-Bahah Region,Arabic
-40,29,Female,Saud,Murr,Asir Region,Arabic
-41,3,Female,Abdal-Aziz,Rezgui,Riyadh Region,Arabic
-42,16,Male,Bilal,Adwan,Jizan Region,Arabic
-43,33,Male,Zaid,Nawawi,Riyadh Region,Arabic
-44,47,Male,Nazif,Shawkat,Al-Jawf Region,Arabic
-45,35,Male,Halim,Asem,Jizan Region,Arabic
-46,10,Female,Halim,ElHammamy,Eastern Region,Arabic
-47,18,Male,Ghulam,Meftah,Jizan Region,Arabic
-48,20,Female,Dhikrullah,Latifi,Medina Region,Arabic
-49,8,Male,Jabal,Al-Ajlani,Riyadh Region,Arabic
+,Customer_ID,Gender,First name,Last name,Date_of_birth,Agree_for_promo,autoplay_card,Customer_Email,MSISDN,Status,Region,Language,Category,termination_date
+0,10,Female,Maha,Salman,2021-11-26,No,No,MahaSalman71@aramco.com.sa,+996-55-6660536,Inactive,Mecca,Arabic,Business,
+1,19,Male,Rabih,Jahid,2021-05-17,No,Yes,RabihJahid7@naseej.com.sa,+996-53-8148968,Inactive,Mecca,Arabic,Business,
+2,7,Male,Aminullah,Ghafour,1981-07-23,No,Yes,AminullahGhafour1@compuserve.com,+996-50-5552362,Inactive,Mecca,Arabic,Business,
+3,12,Female,Khairunnisa,Rushdi,1978-07-31,Yes,No,KhairunnisaRushdi66@sahara.com.sa,+996-55-7519735,Inactive,Asir,Arabic,Business,
+4,2,Male,Samir,Manqabadi,1999-01-01,No,Yes,SamirManqabadi89@sahara.com.sa,+996-55-7844883,Active,Jizan,Arabic,Business,
+5,0,Female,Jessica,Al-Tabari,1969-02-08,Yes,Yes,JessicaAl-Tabari80@arasco.net.sa,+996-50-9342645,Active,Riyadh,Arabic,Business,
+6,4,Female,Eliana,Sajjad,1971-01-15,No,No,ElianaSajjad97@zajil.net.sa,+996-59-6900256,Inactive,Mecca,Arabic,Business,
+7,40,Male,Afif,Harb,2015-12-23,Yes,Yes,AfifHarb67@gmail.com,+996-55-1261970,Inactive,Asir,Arabic,Business,
+8,26,Male,Sarmad,Faheem,2006-05-27,Yes,No,SarmadFaheem9@aramco.com.sa,+996-54-9217130,Inactive,Riyadh,English,Business,
+9,34,Female,Eliana,Tawfik,1976-10-20,Yes,Yes,ElianaTawfik66@zajil.net.sa,+996-58-9438016,Active,Riyadh,Arabic,Business,
+10,25,Female,Sonia,Saleh,2006-04-20,No,No,SoniaSaleh24@zajil.net.sa,+996-55-7743376,Active,Riyadh,Arabic,Business,
+11,8,Male,Asadullah,Makhamrafamily,1958-09-21,Yes,Yes,AsadullahMakhamrafamily44@saudia-omline.com,+996-55-2997220,Active,Riyadh,Arabic,Business,
+12,38,Female,Subiksha,Al-Bishi,1994-12-04,No,Yes,SubikshaAl-Bishi33@arasco.net.sa,+996-59-4953995,Active,Eastern,Arabic,Business,
+13,28,Female,Nayla,HassaГЇne,2004-06-15,Yes,No,NaylaHassaГЇne63@arasco.net.sa,+996-50-2640867,Active,Asir,Arabic,Business,
+14,14,Male,Aminal-Din,Damji,2010-03-22,No,No,Aminal-DinDamji61@gmail.com,+996-50-2609445,Active,Eastern,Arabic,Physical,
+15,6,Male,,Allaf,2016-07-25,No,No,Allaf19@sps.net.sa,+996-56-1497998,Active,Tabuk,Arabic,Business,
+16,27,Male,Sabri,Benayoun,1991-05-14,Yes,No,SabriBenayoun91@123arab.com,+996-50-1026182,Active,Riyadh,Arabic,Business,
+17,44,Male,Sayyid,Zaid,1995-05-20,No,Yes,SayyidZaid15@compuserve.com,+996-50-0742211,Inactive,Asir,Arabic,Physical,
+18,20,Female,Nermin,Rizvi,1994-02-27,Yes,No,NerminRizvi65@arasco.net.sa,+996-59-3102575,Inactive,Al-Bahah,Arabic,Business,
+19,18,Male,Hadi,Kahveci,1986-01-12,No,No,HadiKahveci83@123arab.com,+996-55-0585952,Inactive,Asir,Arabic,Business,
+20,49,Male,Hani,Hijazi,1961-05-11,No,No,HaniHijazi33@sps.net.sa,+996-53-5345992,Inactive,Mecca,Arabic,Business,
+21,24,Female,Naima,Belkadi,1949-03-07,Yes,Yes,NaimaBelkadi87@compuserve.com,+996-54-7348381,Active,Al-Qassim,Arabic,Business,
+22,43,Female,Naziha,Sfeir,1988-08-02,No,No,NazihaSfeir18@naseej.com.sa,+996-58-4902970,Inactive,Jizan,Arabic,Business,
+23,35,Female,Mira,Ghulam,1963-07-02,No,Yes,MiraGhulam33@gmail.com,+996-53-1369380,Inactive,Jizan,Arabic,Business,
+24,23,Female,Khairunnisa,Awan,2014-11-11,No,No,KhairunnisaAwan59@gmail.com,+996-54-2018061,Inactive,Riyadh,Arabic,Business,
+25,33,Female,Shumaila,Al-Qudsi,1993-09-30,Yes,No,ShumailaAl-Qudsi47@compuserve.com,+996-55-6390114,Inactive,Asir,Arabic,Business,
+26,22,Female,Soraida,Aulaqi,1985-01-08,Yes,No,SoraidaAulaqi73@sol.net.sa,+996-50-1510065,Inactive,Al-Qassim,Arabic,Business,
+27,46,Female,Nezha,Karaki,2006-06-17,No,Yes,NezhaKaraki96@saudia-omline.com,+996-54-5166784,Active,Riyadh,Arabic,Business,
+28,16,Male,Munif,Yammine,1959-07-14,Yes,No,MunifYammine87@naseej.com.sa,+996-56-3420106,Inactive,Mecca,Arabic,Business,
+29,47,Female,Waliya,Al-Hawwash,1964-06-30,Yes,Yes,WaliyaAl-Hawwash46@123arab.com,+996-53-3425975,Active,Asir,Arabic,Business,
+30,29,Male,,Hagigat,1975-12-23,No,No,Hagigat91@awalnet.sa,+996-56-1385485,Inactive,Mecca,Arabic,Physical,
+31,30,Male,Sajid,Allaf,2014-08-22,Yes,Yes,SajidAllaf65@123arab.com,+996-59-7549855,Inactive,Mecca,Arabic,Business,
+32,3,Male,Barkatullah,Abergel,1955-03-17,Yes,Yes,BarkatullahAbergel86@zajil.net.sa,+996-50-9366466,Inactive,Riyadh,Arabic,Business,
+33,37,Male,Anjem,Yassine,1983-10-09,No,Yes,AnjemYassine11@aramco.com.sa,+996-54-7444064,Inactive,Mecca,Arabic,Business,
+34,5,Male,Munib,Gazzah,1968-11-22,Yes,No,MunibGazzah24@naseej.com.sa,+996-54-6357557,Active,Mecca,Arabic,Business,
+35,21,Female,Karima,Akram,1986-03-06,Yes,Yes,KarimaAkram32@saudia-omline.com,+996-50-9722118,Active,Eastern,Arabic,Business,
+36,9,Female,Leila,Hijazi,1980-06-05,No,Yes,LeilaHijazi14@sol.net.sa,+996-50-0505090,Inactive,Asir,Arabic,Physical,
+37,17,Male,Fayez,Bilel,2008-07-18,No,Yes,FayezBilel28@123arab.com,+996-58-3892464,Inactive,Asir,Arabic,Business,
+38,13,Female,Tala,Atashi,2009-09-28,No,No,TalaAtashi70@123arab.com,+996-50-2149186,Inactive,Al-Jawf,Arabic,Business,
+39,48,Male,Naguib,Hegazi,1999-06-19,No,No,NaguibHegazi8@sol.net.sa,+996-53-3477106,Active,Eastern,Arabic,Business,
+40,15,Female,Amira,Manqabadi,1989-04-11,No,Yes,AmiraManqabadi50@naseej.com.sa,+996-53-9630822,Inactive,Jizan,Arabic,Business,
+41,11,Male,ShafiqurRahman,Riad,1994-04-03,No,No,ShafiqurRahmanRiad53@naseej.com.sa,+996-59-9841843,Inactive,Jizan,Arabic,Business,
+42,1,Female,Naima,Ahsan,1986-04-01,No,No,NaimaAhsan84@sahara.com.sa,+996-56-4246840,Active,Asir,Arabic,Business,
+43,32,Male,,Najjar,1999-08-04,Yes,No,Najjar31@saudia-omline.com,+996-59-2506668,Active,Riyadh,Arabic,Business,
+44,36,Female,Dana,Moeen,1979-03-23,Yes,Yes,DanaMoeen8@sps.net.sa,+996-59-3407884,Inactive,Riyadh,Arabic,Physical,
+45,45,Female,Aliya,Abergel,1991-07-16,No,Yes,AliyaAbergel65@awalnet.sa,+996-59-2393423,Active,Mecca,Arabic,Business,
+46,31,Female,Sarah,Al-Abadi,2009-05-08,Yes,No,SarahAl-Abadi70@gmail.com,+996-56-3848259,Active,Eastern,Arabic,Business,
+47,41,Male,Zaynad-Din,Sadir,2011-06-03,Yes,No,Zaynad-DinSadir34@123arab.com,+996-53-2516577,Inactive,Mecca,English,Business,
+48,42,Male,Azeem,Iqbal,2016-10-14,No,No,AzeemIqbal56@sps.net.sa,+996-55-9568735,Active,Al-Bahah,Arabic,Business,
+49,39,Male,Shukri,Nahyan,1983-08-18,No,Yes,ShukriNahyan21@sol.net.sa,+996-53-7912654,Inactive,Hail,Arabic,Business,
