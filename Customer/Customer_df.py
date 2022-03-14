@@ -252,7 +252,7 @@ def generate_Categories(population):
 	Customer_Categories = []
 	for i in range(population):
 		k = np.random.randint(1,4)/100
-		Customer_Categories.append(np.random.choice(['Business', 'Physical'], p = [0.87+k, 0.13-k]))
+		Customer_Categories.append(np.random.choice(['Business', 'Physical'], p = [0.13+k, 0.87-k]))
 	return(Customer_Categories)
 
 
@@ -319,5 +319,5 @@ for i in range(0, population):
 				index = customer_columns),
 		ignore_index = True)
 '''
-#print(customer_df)
+print(customer_df)
 customer_df.to_csv('Customers.csv', sep=',')
