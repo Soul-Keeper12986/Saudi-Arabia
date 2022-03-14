@@ -274,7 +274,7 @@ customer_columns  = ['Customer_ID',
 					'Termination_date']
 '''
 
-population = 50
+population = 10000
 #customer_dataframe = pd.DataFrame(columns = customer_columns)
 customer_df = pd.DataFrame()
 
@@ -319,5 +319,5 @@ for i in range(0, population):
 				index = customer_columns),
 		ignore_index = True)
 '''
-print(customer_df)
-#customer_df.to_csv('Customers.csv', sep=',')
+#print(customer_df)
+customer_df.to_csv('Customers.csv', sep=',')
