@@ -167,7 +167,8 @@ def generate_Region(population):
 
 def generate_ID(population):
 	customer_ID_list = np.arange(population)
-	x = np.random.shuffle(customer_ID_list)	
+	#for i in customer_ID_list: customer_ID_list[i] = f'{customer_ID_list[i]:05}'
+	x = np.random.shuffle(customer_ID_list)
 	#print(customer_ID_list)
 	return(customer_ID_list)
 
@@ -264,14 +265,7 @@ customer_columns  = ['Customer_ID',
 					'Gender',
 					'Agree_for_promo',
 					'Autopay_card',
-					'Email',
-					'MSISDN',
-					'Status',
-					'Customer category',
-					'Customer_since',
-					'Region',
-					'Language',
-					'Termination_date']
+					'Email',				
 '''
 
 population = 10000
