@@ -4,6 +4,7 @@ import numpy as np
 from datetime import datetime,timedelta
 import warnings
 import pandas as pd
+import random
 
 
 
@@ -52,25 +53,13 @@ def generate_Payment_Method(population):
         Method.append(np.random.choice(['Card','Cash'], p =[0.7, 0.3]))
     return (Method)
 
+def generate_Amount(population):
+    Method1 = []
+    for i in range(population):
+        Method1.append(random.randrange(70,300,5))
+    return (Method1)
 
 
-'''
-customer_columns  = ['Customer_ID',
-					'First name', 
-					'Last name',
-					'Date of birth',
-					'Gender',
-					'Agree_for_promo',
-					'Autopay_card',
-					'Email',
-					'MSISDN',
-					'Status',
-					'Customer category',
-					'Customer_since',
-					'Region',
-					'Language',
-					'Termination_date']
-'''
 population = 50
 # customer_dataframe = pd.DataFrame(columns = customer_columns)
 payment_dataframe = pd.DataFrame()
@@ -78,6 +67,7 @@ payment_dataframe = pd.DataFrame()
 payment_dataframe['Payment_ID'] = generate_Payment_ID(population)
 payment_dataframe['Payment_method'] = generate_Payment_Method(population)
 payment_dataframe['Date'] = generate_Date(population)
+payment_dataframe['Amount'] = generate_Amount(population)
 
 
 pd.set_option('display.max_columns', None)
