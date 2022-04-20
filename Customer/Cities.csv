@@ -1,0 +1,244 @@
+,Name,Population,type
+0,Al-'Aqīq,15329,town
+1,Al-Bādah,95089,town
+2,Al-Mandaq,9964,village
+3,Baljurashī,43493,town
+4,Qilwah,12925,town
+5,Sakākā,5105,village
+6,Al-Qurayyāt,6979,village
+7,Al-Qurayyāt,5629,village
+8,Al-Qurayyāt,116162,town
+9,Dūmat al-Jandal,32613,town
+10,Sakākā,150257,town
+11,Sakākā,9779,village
+12,Sakākā,48525,town
+13,Buraydah,5862,village
+14,Buraydah,5068,village
+15,Al-'Asyāḥ,6649,village
+16,Al-Badā'i'a,46620,town
+17,Al-Bukayriyah,29547,town
+18,Al-Bukayriyah,5620,village
+19,Buraydah,8639,village
+20,Buraydah,7071,village
+21,Al-Midhnab,29210,town
+22,Buraydah,5523,village
+23,Ar-Rass,92501,town
+24,Ash-Shimāiyah,5871,village
+25,Buraydah,467410,city
+26,Ar-Rass,5727,village
+27,Buraydah,6659,village
+28,Buraydah,10439,town
+29,Riyāḍ al-Khabrā',17236,town
+30,Unaīzah,152895,town
+31,Uyūn al-Jiwā',8338,village
+32,Abhā,236157,town
+33,Aḥad Rāfidah,57112,town
+34,Abhā,8046,village
+35,Al-Majāridah,17241,town
+36,Balqarn,19956,town
+37,An-Nimāṣ,27021,town
+38,Muḥā'yil,6112,village
+39,Bīshah,86201,town
+40,Aḥad Rāfidah,9514,village
+41,Khamīs Mushaīṭ,430828,city
+42,Muḥā'yil,56953,town
+43,Sarāt 'Abīdah,13451,town
+44,Bīshah,5670,village
+45,Abhā,14684,town
+46,Tathlīth,8099,village
+47,Ẓahrān al-Janūb,23758,town
+48,Abqaīq,36207,town
+49,Al-'Aḥsā',9058,village
+50,Ad-Dammām,903312,city
+51,Ḥafar al-Bāṭin,14442,town
+52,Al-Qaṭīf,26691,town
+53,Al-Qaṭīf,12241,town
+54,Al-'Aḥsā',17930,town
+55,Al-'Aḥsā',6609,village
+56,Al-'Aḥsā',6547,village
+57,Al-'Aḥsā',660788,city
+58,Al-'Aḥsā',18583,town
+59,Al-'Aḥsā',9707,village
+60,Al-Qaṭīf,11199,town
+61,Al-Qaṭīf,11822,town
+62,Al-'Aḥsā',12024,town
+63,Al-Jubaīl,337778,city
+64,Al-'Aḥsā',10241,town
+65,Al-'Aḥsā',8592,village
+66,Al-Khafjī,67012,town
+67,Al-Khubar,219679,town
+68,Al-Qaṭīf,8531,village
+69,Al-'Aḥsā',16984,town
+70,Al-'Aḥsā',8864,village
+71,Al-'Aḥsā',5633,village
+72,Al-'Aḥsā',7014,village
+73,Al-Qaṭīf,5630,village
+74,Al-'Aḥsā',17913,town
+75,Al-'Aḥsā',6371,village
+76,Ḥafar al-Bāṭin,22538,town
+77,Al-'Aḥsā',9702,village
+78,Al-Qaṭīf,118327,town
+79,Al-Qaṭīf,27904,town
+80,Al-'Aḥsā',13296,town
+81,Al-'Aḥsā',17410,town
+82,Al-'Aḥsā',33042,town
+83,Al-Qaṭīf,23125,town
+84,Al-Qaṭīf,14008,town
+85,An-Nu'ayriyah,26470,town
+86,Al-'Aḥsā',9068,village
+87,Al-'Aḥsā',5640,village
+88,Al-Khafjī,6259,village
+89,Al-Khubar,238066,town
+90,Al-'Aḥsā',23543,town
+91,Al-Qaṭīf,8339,village
+92,Al-'Aḥsā',9259,village
+93,Al-Khubar,120521,town
+94,Al-'Aḥsā',6093,village
+95,Ḥafar al-Bāṭin,271642,city
+96,Al-Qaṭīf,9799,village
+97,Al-'Aḥsā',5906,village
+98,An-Nu'ayriyah,5925,village
+99,Qaryat al-'Ulyā,8941,village
+100,R'ās Tanūrah,54166,town
+101,Al-Qaṭīf,50447,town
+102,Al-Qaṭīf,75794,town
+103,Al-Qaṭīf,77757,town
+104,Al-Qaṭīf,16140,town
+105,Al-Qaṭīf,12998,town
+106,Al-Ghazalah,7125,village
+107,Ḥā'il,5523,village
+108,Ash-Shanān,7157,village
+109,Baq'ā',13382,town
+110,Ḥā'il,310897,city
+111,Ḥā'il,5493,village
+112,Baq'ā',5134,village
+113,Abū 'Arīsh,61047,town
+114,Ad-Darb,5536,village
+115,Ṣabyā,5931,village
+116,Ad-Darb,8878,village
+117,Ad-Dā'yir,15103,town
+118,Aḥad al-Masāriḥah,25007,town
+119,Ṣabyā,8678,village
+120,Al-'Arḍah,6947,village
+121,Al-'Aydābī,7672,village
+122,Jīzān,8719,village
+123,Ṣabyā,6230,village
+124,Ṣāmiṭah,5867,village
+125,Ṣāmiṭah,8488,village
+126,Al-Ḥarth,7091,village
+127,Ṣāmiṭah,5096,village
+128,Jīzān,7752,village
+129,Bīsh,7652,village
+130,Jīzān,5081,village
+131,Ṣāmiṭah,5091,village
+132,Ḍamad,7238,village
+133,Jīzān,7550,village
+134,Ṣabyā,11697,town
+135,Bīsh,30835,town
+136,Ḍamad,24056,town
+137,Farasān,14005,town
+138,Abū 'Arīsh,7656,village
+139,Jīzān,127743,town
+140,Bīsh,6776,village
+141,Jīzān,5849,village
+142,Ar-Rayth,5777,village
+143,Ṣabyā,63143,town
+144,Ṣāmiṭah,32458,town
+145,Al-Līth,10484,town
+146,Aṭ-Ṭa'if,148151,town
+147,Aṭ-Ṭa'if,8819,village
+148,Al-Jumūm,25601,town
+149,Al-Khurmah,27032,town
+150,Al-Līth,18430,town
+151,Aṭ-Ṭa'if,8553,village
+152,Al-Qunfudhah,8508,village
+153,Al-Qunfudhah,24512,town
+154,Al-Qunfudhah,23391,town
+155,Aṭ-Ṭa'if,8425,village
+156,Aṭ-Ṭa'if,5206,village
+157,Aṭ-Ṭa'if,579970,city
+158,Makkah al-Mukarramah,75213,town
+159,Jiddah,7161,village
+160,Jiddah,3430697,city
+161,Makkah al-Mukarramah,10440,town
+162,Khulaīṣ,19331,town
+163,Makkah al-Mukarramah,1534731,city
+164,Rābigh,7034,village
+165,Aṭ-Ṭa'if,5227,village
+166,Rābigh,55304,town
+167,Ranyah,21656,town
+168,Rābigh,6237,village
+169,Jiddah,17792,town
+170,Turubah,25937,town
+171,Aṭ-Ṭa'if,6853,village
+172,Aṭ-Ṭa'if,5090,village
+173,Yanbu' al-Baḥr,10798,town
+174,Al-Ḥinākīyah,16738,town
+175,Al-Madīnah al-Munuwarah,1100093,city
+176,Al-Ḥinākīyah,7174,village
+177,Al-'Ulā,32413,town
+178,Khaybar,8939,village
+179,Badr,28999,town
+180,Khaybar,16081,town
+181,Mahd adh-Dhahab,15934,town
+182,Yanbu' al-Baḥr,233236,town
+183,Najrān,16795,town
+184,Khubāsh,5820,village
+185,Ḥubūnā,8047,village
+186,Najrān,298288,city
+187,Sharūrah,75237,town
+188,Khubāsh,5284,village
+189,Ar'ar,14121,town
+190,Ar'ar,167057,town
+191,Ar'ar,5125,village
+192,Rafḥā',52712,town
+193,Rafḥā',5532,village
+194,Ṭuraīf,48108,town
+195,Ad-Dawādmī,61834,town
+196,Al-Kharj,40114,town
+197,Ad-Dir'iyah,43269,town
+198,Al-Kharj,5487,village
+199,Afïf,45525,town
+200,Al-Majma'ah,10596,town
+201,Al-'Aflāj,7194,village
+202,Al-Ghāṭ,8746,village
+203,Al-Ḥarīq,8473,village
+204,Al-Kharj,10495,town
+205,Ar-Riyāḍ,16845,town
+206,Ḥawṭah Banī Tamīm,6374,village
+207,Al-Kharj,234607,town
+208,Al-Majma'ah,47743,town
+209,Al-Muzāḥimiyah,30164,town
+210,Al-Qūway'iyah,22519,town
+211,Ad-Dir'iyah,8523,village
+212,Al-Kharj,5821,village
+213,Ad-Dawādmī,5163,village
+214,Ar-Riyāḍ,5188286,city
+215,Al-Qūway'iyah,6478,village
+216,As-Sulayyil,26639,town
+217,Az-Zulfī,60867,town
+218,Ḍurmā,11461,town
+219,Al-Majma'ah,8701,village
+220,Al-Majma'ah,18954,town
+221,Ḥawṭah Banī Tamīm,26270,town
+222,Al-Kharj,6529,village
+223,Ḥuraymilā',9696,village
+224,Ar-Riyāḍ,12284,town
+225,Al-'Aflāj,30906,town
+226,Ar-Riyāḍ,11768,town
+227,Al-Kharj,5125,village
+228,Rimāḥ,20276,town
+229,Ad-Dawādmī,12921,town
+230,Shaqrā',26651,town
+231,Al-Majma'ah,9406,village
+232,Thādiq,7438,village
+233,Wādī ad-Dawāsir,93036,town
+234,Tabūk,12946,town
+235,Al-Wajh,30512,town
+236,Tabūk,5975,village
+237,Ḍubā',25568,town
+238,Tabūk,5293,village
+239,Ḥaql,25649,town
+240,Tabūk,512629,city
+241,Taymā',30411,town
+242,Umluj,37757,town

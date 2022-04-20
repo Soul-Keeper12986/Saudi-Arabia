@@ -255,21 +255,37 @@ def generate_Categories(population):
 		k = np.random.randint(1,4)/100
 		Customer_Categories.append(np.random.choice(['Business', 'Physical'], p = [0.13+k, 0.87-k]))
 	return(Customer_Categories)
-
-
 '''
-customer_columns  = ['Customer_ID',
-					'First name', 
-					'Last name',
-					'Date of birth',
-					'Gender',
-					'Agree_for_promo',
-					'Autopay_card',
-					'Email',				
+def _get(dct, name, value):
+	result = list(filter(lambda x: x.get('name') == name, dct.values()))
+	return result[0][value] if result else False
 '''
+def generate_Cities(population):
+	df = pd.read_csv('Cities.csv').drop('Unnamed: 0', 1)
+	df = df.set_index('Name').T.to_dict()
+	Customer_cities = []
+	Customer_cities_types = []
+	city_probabilities = []
+	city_sum = 0
+	for key, value in df.items():
+		city_sum += value['Population']
+
+	k = round(city_sum * 7/3)
+	df['Other'] = {'Population': round(city_sum * 7/3), 'type': 'Unknown'}
+	city_sum += k
+	for key, value in df.items():
+		city_probabilities.append(value['Population']/city_sum)
+	items = df.items()
+
+	for i in range(0, population):
+		city = np.random.choice((list(df.keys())), p = city_probabilities)
+		Customer_cities.append(city)
+		Customer_cities_types.append(df.get(city)['type'])
+		#print(df.get(city)['type'])
+	return(Customer_cities, Customer_cities_types)
+
 
 population = 10000
-#customer_dataframe = pd.DataFrame(columns = customer_columns)
 customer_df = pd.DataFrame()
 
 customer_df['Customer_ID'] = generate_ID(population)
@@ -287,7 +303,8 @@ customer_df['Customer_Since'] = generate_Customer_Since(population,customer_df['
 customer_df['Region'] = generate_Region(population) 
 customer_df['Language'] = generate_Language(population) 
 customer_df['termination_date'] = np.NaN
-
+customer_df['Customer_City'] =generate_Cities(population)[0]
+customer_df['Customer_City_Type'] =generate_Cities(population)[1]
 
 pd.set_option('display.max_columns', None)
 #pd.set_option('display.max_rows', None)
@@ -314,4 +331,4 @@ for i in range(0, population):
 		ignore_index = True)
 '''
 print(customer_df)
-customer_df.to_csv('Customers.csv', sep=',')
+#customer_df.to_csv('Customers.csv', sep=',')
